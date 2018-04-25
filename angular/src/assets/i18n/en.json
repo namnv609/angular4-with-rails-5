@@ -5,5 +5,17 @@
   "languages": {
     "english": "English",
     "vietnamese": "Vietnamese"
+  },
+  "form_controls": {
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "password": "Password"
+    }
+  },
+  "validation_error_messages": {
+    "required": "{{fieldName}} is required",
+    "minlength": "Minimum length of {{fieldName}} is {{validatorValue.actualLength}}/{{validatorValue.requiredLength}}",
+    "invalidEmailAddress": "Invalid email address"
   }
 }

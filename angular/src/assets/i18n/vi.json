@@ -5,5 +5,17 @@
   "languages": {
     "english": "Tiếng Anh",
     "vietnamese": "Tiếng Việt"
+  },
+  "form_controls": {
+    "labels": {
+      "name": "Tên",
+      "email": "Địa chỉ email",
+      "password": "Mật khẩu"
+    }
+  },
+  "validation_error_messages": {
+    "required": "{{fieldName}} không được để trống",
+    "minlength": "Độ dài tối thiểu của {{fieldName}} phải là {{validatorValue.requiredLength}}. Bạn đã nhập {{validatorValue.actualLength}}",
+    "invalidEmailAddress": "Không phải là một địa chỉ email hợp lệ"
   }
 }
