@@ -1,0 +1,17 @@
+<form [formGroup]="userForm" (submit)="saveUser()">
+  <div>
+    <label for="name">{{ "form_controls.labels.name" | translate }}</label>
+    <input type="text" id="name" formControlName="name">
+    <app-control-messages [control]="userForm.controls.name" [field]="'name'"></app-control-messages>
+  </div>
+  <div>
+    <label for="email">{{ "form_controls.labels.email" | translate }}</label>
+    <input type="text" id="email" formControlName="email">
+    <app-control-messages [control]="userForm.controls.email" [field]="'email'"></app-control-messages>
+  </div>
+  <div>
+    <label for="password">{{ "form_controls.labels.password" | translate }}</label>
+    <input type="password" id="password" formControlName="password">
+    <app-control-messages [control]="userForm.controls.password" [field]="'password'"></app-control-messages>
+  </div>
+</form>
