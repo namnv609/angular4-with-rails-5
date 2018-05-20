@@ -10,6 +10,10 @@ import { AppRoutings } from "./app.routings";
 import { AppComponent } from './app.component';
 import { ControlMessagesComponent } from './components/control-messages/control-messages.component';
 import { RegisterComponent } from './components/register/register.component';
+import { SiteHeaderComponent } from './_layout/site-header/site-header.component';
+import { SiteFooterComponent } from './_layout/site-footer/site-footer.component';
+import { SiteLayoutComponent } from './_layout/site-layout/site-layout.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, "./assets/i18n/", ".json");
@@ -19,7 +23,11 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     ControlMessagesComponent,
-    RegisterComponent
+    RegisterComponent,
+    SiteHeaderComponent,
+    SiteFooterComponent,
+    SiteLayoutComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,8 @@
 {
   "index": {
     "title": "Welcome to Angular 4",
-    "register": "Register"
+    "register": "Register",
+    "home": "Home"
   },
   "languages": {
     "english": "English",
