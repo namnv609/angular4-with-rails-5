@@ -8,4 +8,6 @@ export const AppRoutes: Routes = [
     component: RegisterComponent
   }
 ];
-export const AppRoutings: ModuleWithProviders = RouterModule.forRoot(AppRoutes);
+export const AppRoutings: ModuleWithProviders = RouterModule.forRoot(AppRoutes, {
+  useHash: true
+});
