@@ -1,6 +1,7 @@
 {
   "index": {
-    "title": "Chào mừng bạn đến với Angular 4"
+    "title": "Chào mừng bạn đến với Angular 4",
+    "register": "Đăng ký"
   },
   "languages": {
     "english": "Tiếng Anh",
