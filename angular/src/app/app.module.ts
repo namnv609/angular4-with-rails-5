@@ -4,6 +4,8 @@ import { HttpClientModule, HttpClient } from "@angular/common/http";
 import { TranslateModule, TranslateLoader } from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms"
+import { RouterModule } from "@angular/router";
+import { AppRoutings } from "./app.routings";
 
 import { AppComponent } from './app.component';
 import { ControlMessagesComponent } from './components/control-messages/control-messages.component';
@@ -30,7 +32,8 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     }),
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutings
   ],
   providers: [],
   bootstrap: [AppComponent]
