@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+(1..10).each do |idx|
+  f = Faker::Lorem
+
+  Post.create(title: f.sentence, description: f.sentence(20), content: f.paragraph(rand(20..40)),
+    author: Faker::Name.name)
+end

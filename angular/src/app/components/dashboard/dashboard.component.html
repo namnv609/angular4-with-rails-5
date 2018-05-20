@@ -2,5 +2,24 @@
   <a routerLink="/register">{{ "index.register" | translate }}</a>
 </div>
 <div>
-  <p>Dashboard component</p>
+  <table border="1" width="100%">
+    <thead>
+      <tr>
+        <th>{{ "dashboard.id" | translate }}</th>
+        <th>{{ "dashboard.title" | translate }}</th>
+        <th>{{ "dashboard.description" | translate }}</th>
+        <th>{{ "dashboard.author" | translate }}</th>
+        <th>{{ "dashboard.content" | translate }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let post of posts">
+        <td>{{ post.id }}</td>
+        <td>{{ post.title }}</td>
+        <td>{{ post.description }}</td>
+        <td>{{ post.author }}</td>
+        <td>{{ post.content }}</td>
+      </tr>
+    </tbody>
+  </table>
 </div>

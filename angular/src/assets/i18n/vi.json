@@ -8,6 +8,13 @@
     "english": "Tiếng Anh",
     "vietnamese": "Tiếng Việt"
   },
+  "dashboard": {
+    "id": "ID",
+    "title": "Tiêu đề",
+    "description": "Mô tả",
+    "content": "Nội dung",
+    "author": "Tác giả"
+  },
   "form_controls": {
     "labels": {
       "name": "Tên",

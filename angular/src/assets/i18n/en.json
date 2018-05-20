@@ -8,6 +8,13 @@
     "english": "English",
     "vietnamese": "Vietnamese"
   },
+  "dashboard": {
+    "id": "ID",
+    "title": "Title",
+    "description": "Description",
+    "content": "Content",
+    "author": "Author"
+  },
   "form_controls": {
     "labels": {
       "name": "Name",
